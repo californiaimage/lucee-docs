@@ -11,6 +11,10 @@ Download & Install mod_cfml Tomcat Valve
 mod_cfml dynamically creates hosts in Tomcat based on the request headers of the incoming request.
 
 * Download the latest mod_cfml JAR file from http://www.modcfml.org/index.cfm/downloads/
+**Now references redirect to RIA, which states current project is on:
+https://github.com/Bilal-S/iis2tomcat/releases
+*This version has an installer versus .jar
+
 * copy the .JAR file to  "C:\Program Files\Tomcat\lib\"
 * Restart the Tomcat service
 
