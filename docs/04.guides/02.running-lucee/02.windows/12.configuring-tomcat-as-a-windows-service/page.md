@@ -9,6 +9,8 @@ Creating the Windows service is only possible on the command line. The basic syn
 
 ```
 "C:\Program Files\Tomcat\bin\tomcat8.exe" //IS//Tomcat8 --DisplayName="Apache Tomcat Application Server"
+~ Note, current version is TomCat 9.0. If you install 9 substitute reference to 8 and related path to: 
+C:\Program Files\Apache Software Foundation\Tomcat 9.0
 ```
 This line would install the service. The argument **//IS//** installs the service without starting it. Probably the service wouldn't start anyway: A lot of configuration data needs to be stored into the registry first. Actually Tomcat is blind like a mole.
 
